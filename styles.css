@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Source+Code+Pro:ital,wght@0,400;1,300;1,400&family=Yeon+Sung&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'East Sea Dokdo', cursive; */
+    /* font-family: 'Source Code Pro', monospace;  */
+    font-family: 'Yeon Sung', cursive;
+    /* background-image: url("images/wp3913853-baby-groot-4k-wallpapers.jpg");
+    background-color: #cccccc */
+}
+
+:root{
+    --primary-color: #f1ce08;
+    --secondary-color:#0E49B5;
+    --dark-gray:#1F2937;
+}
+/* :root{
+    --light-gray:#F9FAFB;
+    
+    --white:#fff;
+} */
+/* 
+body{
+    background-color: var(--primary-color);
+    
+    background-size:cover;
+    height:80vh;
+    color:var(--light-gray);
+
+} */
+
+body, html {
+    height: 100%;
+  }
+
+.hero-image {
+    background-image: url("images/wp3913845-baby-groot-4k-wallpapers.jpg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contents {
+    text-align: center;
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: whitesmoke;
+  
+    /* padding-bottom: 8rem; */
+    display: block;
+}
+h1{
+    
+    color: ;
+    background-image: linear-gradient(to top, #312f30 0%, #e3eeff 99%, #e3eeff 100%);
+    /* margin-bottom: 0; */
+    padding-bottom: 1rem;
+}
+.btn{
+    text-align: center;
+    padding-top: 1rem;    
+    padding-left: 5rem;
+    display: inline-block;
+}
+#small-image{
+    height: 10rem;
+    text-align: center;
+    padding-right: 0rem;
+}
+#small-image:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+  
+
+#translateBtn{
+    /* display: block; */
+    padding:0.5rem 1rem;
+    text-align: center;
+    color:var(--white);
+    border:1px solid var(--light-gray);
+    
+
+}
+
+.indicator{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    /* margin-top: 10px; */
+   
+    
+    /* left: 50px; */
+}
+
+#translateBtn:hover{
+    /* color:var(--dark-gray); */
+    background-image: linear-gradient(to top, #312f30 0%, #e3eeff 99%, #e3eeff 100%);
+    /* border: 1px solid black; */ 
+}
+
+p{
+    justify-content: flex-start;
+    color:var(--white);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+
+#output-text{
+    padding:1rem;
+    /* border: 1px solid black; */
+    width:100%;
+    text-align: center;
+    color:whitesmoke;
+    text-size-adjust: 15rem;
+    min-height:8rem;
+    font-size:1.1rem;
+    /* float: right; */
+    /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);  */
+    /* opacity: 0;  */
+    background: transparent;
+}
+
+#inputTxt{
+    
+    padding:1rem;
+    /* margin-top: 3rem; */
+    width:70%;
+    color:white
+    
+}
+
+#input-text{
+    padding:1rem;
+    margin-top: 3rem;
+    width:100%;
+    color:var(--dark-gray);
+    min-height:8rem;
+    font-size:1.1rem;
+    background: transparent;
+    color: transparent;
+    left: 0;
+    float: left;
+}
+
