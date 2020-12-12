@@ -69,6 +69,7 @@ h1{
     display: inline-block;
 }
 #small-image{
+    
     height: 10rem;
     text-align: center;
     padding-right: 0rem;
@@ -81,6 +82,7 @@ h1{
   
 
 #translateBtn{
+    cursor: pointer;
     /* display: block; */
     padding:0.5rem 1rem;
     text-align: center;
@@ -88,6 +90,17 @@ h1{
     border:1px solid var(--light-gray);
     
 
+}
+.input {
+    /* display: flex; */
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: block;
+    margin-left: auto;
+    width: 99%;
+    /* align-items: center; */
+    text-align: center;
+    margin-right: auto;
 }
 
 .indicator{
